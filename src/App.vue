@@ -1,7 +1,8 @@
 <template>
   <nav>
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/about">About</router-link> |
+    <router-link to="/history">History</router-link>
   </nav>
   <router-view/>
 </template>
@@ -20,10 +21,10 @@ nav {
 
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #044a36;
 
     &.router-link-exact-active {
-      color: #42b983;
+      color: #0ee8aa;
     }
   }
 }
