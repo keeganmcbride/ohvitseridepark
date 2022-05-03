@@ -2,7 +2,7 @@
   <div>
     <h1>{{ msg }}</h1>
     <p>Something is coming :)</p>
-    <img alt="Ohvitseride Park" src="../assets/park.jpg">
+    <img alt="Ohvitseride Park" src="../assets/park.png">
  </div>
 </template>
 
